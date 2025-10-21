@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "faywdOUC4YQ=",
+  "success": true,
+  "projectFilePath": "C:\\KINAURA VINZA A.S._X PPLG 2\\Praktik3.1_kinaura_xpplg2\\Praktik3.1_kinaura_xpplg2\\Praktik3.1_kinaura_xpplg2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zyrex\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.19\\microsoft.dotnet.ilcompiler.8.0.19.nupkg.sha512",
+    "C:\\Users\\zyrex\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.19\\microsoft.net.illink.tasks.8.0.19.nupkg.sha512",
+    "C:\\Users\\zyrex\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.19\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}
