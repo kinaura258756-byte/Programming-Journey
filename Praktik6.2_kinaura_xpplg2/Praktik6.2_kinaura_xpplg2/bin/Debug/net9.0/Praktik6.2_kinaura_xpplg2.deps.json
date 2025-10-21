@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Praktik6.2_kinaura_xpplg2/1.0.0": {
+        "runtime": {
+          "Praktik6.2_kinaura_xpplg2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Praktik6.2_kinaura_xpplg2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

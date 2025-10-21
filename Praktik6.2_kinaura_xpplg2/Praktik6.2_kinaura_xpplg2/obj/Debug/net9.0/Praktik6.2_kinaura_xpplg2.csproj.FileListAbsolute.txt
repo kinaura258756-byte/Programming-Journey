@@ -1,0 +1,14 @@
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik6.2_kinaura_xpplg2\Praktik6.2_kinaura_xpplg2\bin\Debug\net9.0\Praktik6.2_kinaura_xpplg2.exe
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik6.2_kinaura_xpplg2\Praktik6.2_kinaura_xpplg2\bin\Debug\net9.0\Praktik6.2_kinaura_xpplg2.deps.json
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik6.2_kinaura_xpplg2\Praktik6.2_kinaura_xpplg2\bin\Debug\net9.0\Praktik6.2_kinaura_xpplg2.runtimeconfig.json
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik6.2_kinaura_xpplg2\Praktik6.2_kinaura_xpplg2\bin\Debug\net9.0\Praktik6.2_kinaura_xpplg2.dll
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik6.2_kinaura_xpplg2\Praktik6.2_kinaura_xpplg2\bin\Debug\net9.0\Praktik6.2_kinaura_xpplg2.pdb
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik6.2_kinaura_xpplg2\Praktik6.2_kinaura_xpplg2\obj\Debug\net9.0\Praktik6.2_kinaura_xpplg2.GeneratedMSBuildEditorConfig.editorconfig
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik6.2_kinaura_xpplg2\Praktik6.2_kinaura_xpplg2\obj\Debug\net9.0\Praktik6.2_kinaura_xpplg2.AssemblyInfoInputs.cache
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik6.2_kinaura_xpplg2\Praktik6.2_kinaura_xpplg2\obj\Debug\net9.0\Praktik6.2_kinaura_xpplg2.AssemblyInfo.cs
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik6.2_kinaura_xpplg2\Praktik6.2_kinaura_xpplg2\obj\Debug\net9.0\Praktik6.2_kinaura_xpplg2.csproj.CoreCompileInputs.cache
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik6.2_kinaura_xpplg2\Praktik6.2_kinaura_xpplg2\obj\Debug\net9.0\Praktik6.2_kinaura_xpplg2.dll
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik6.2_kinaura_xpplg2\Praktik6.2_kinaura_xpplg2\obj\Debug\net9.0\refint\Praktik6.2_kinaura_xpplg2.dll
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik6.2_kinaura_xpplg2\Praktik6.2_kinaura_xpplg2\obj\Debug\net9.0\Praktik6.2_kinaura_xpplg2.pdb
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik6.2_kinaura_xpplg2\Praktik6.2_kinaura_xpplg2\obj\Debug\net9.0\Praktik6.2_kinaura_xpplg2.genruntimeconfig.cache
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik6.2_kinaura_xpplg2\Praktik6.2_kinaura_xpplg2\obj\Debug\net9.0\ref\Praktik6.2_kinaura_xpplg2.dll
