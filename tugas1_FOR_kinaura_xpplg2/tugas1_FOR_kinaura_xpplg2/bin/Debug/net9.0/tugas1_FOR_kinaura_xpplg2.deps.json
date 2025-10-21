@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "tugas1_FOR_kinaura_xpplg2/1.0.0": {
+        "runtime": {
+          "tugas1_FOR_kinaura_xpplg2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tugas1_FOR_kinaura_xpplg2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
