@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktik6.3_kinaura_xpplg2", "Praktik6.3_kinaura_xpplg2\Praktik6.3_kinaura_xpplg2.csproj", "{728100A4-EA1B-4E5C-B560-59724E152247}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{728100A4-EA1B-4E5C-B560-59724E152247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728100A4-EA1B-4E5C-B560-59724E152247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728100A4-EA1B-4E5C-B560-59724E152247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728100A4-EA1B-4E5C-B560-59724E152247}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41BFFD41-1945-46A0-BDC9-571824EDB370}
+	EndGlobalSection
+EndGlobal
