@@ -1,0 +1,14 @@
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik_7.1_fungsi\Praktik_7.1_fungsi\bin\Debug\net9.0\Praktik_7.1_fungsi.exe
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik_7.1_fungsi\Praktik_7.1_fungsi\bin\Debug\net9.0\Praktik_7.1_fungsi.deps.json
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik_7.1_fungsi\Praktik_7.1_fungsi\bin\Debug\net9.0\Praktik_7.1_fungsi.runtimeconfig.json
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik_7.1_fungsi\Praktik_7.1_fungsi\bin\Debug\net9.0\Praktik_7.1_fungsi.dll
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik_7.1_fungsi\Praktik_7.1_fungsi\bin\Debug\net9.0\Praktik_7.1_fungsi.pdb
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik_7.1_fungsi\Praktik_7.1_fungsi\obj\Debug\net9.0\Praktik_7.1_fungsi.GeneratedMSBuildEditorConfig.editorconfig
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik_7.1_fungsi\Praktik_7.1_fungsi\obj\Debug\net9.0\Praktik_7.1_fungsi.AssemblyInfoInputs.cache
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik_7.1_fungsi\Praktik_7.1_fungsi\obj\Debug\net9.0\Praktik_7.1_fungsi.AssemblyInfo.cs
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik_7.1_fungsi\Praktik_7.1_fungsi\obj\Debug\net9.0\Praktik_7.1_fungsi.csproj.CoreCompileInputs.cache
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik_7.1_fungsi\Praktik_7.1_fungsi\obj\Debug\net9.0\Praktik_7.1_fungsi.dll
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik_7.1_fungsi\Praktik_7.1_fungsi\obj\Debug\net9.0\refint\Praktik_7.1_fungsi.dll
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik_7.1_fungsi\Praktik_7.1_fungsi\obj\Debug\net9.0\Praktik_7.1_fungsi.pdb
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik_7.1_fungsi\Praktik_7.1_fungsi\obj\Debug\net9.0\Praktik_7.1_fungsi.genruntimeconfig.cache
+C:\KINAURA VINZA AGRACIANA SANDIORIVA_X PPLG 2\Praktik_7.1_fungsi\Praktik_7.1_fungsi\obj\Debug\net9.0\ref\Praktik_7.1_fungsi.dll
