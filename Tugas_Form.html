@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1 Form</title>
+</head>
+<body>
+     <Center>
+    <h3>FORMULIR PENDAFTARAN CALON SISWA BARU SMK</h3>
+    </center>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>BIODATA SISWA</legend>
+            <table>
+                <tr>
+                    <td>No. UN SMP/MTS/sederajat:</td>
+                    <td><input type="text" name="no_un" required></td>
+                </tr>
+                <tr>
+                    <td>Nama Lengkap:</td>
+                    <td><input type="text" name="nama_lengkap" required></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin:</td>
+                    <td>
+                        <input type="radio" name="jk"> Laki-laki
+                        <br>
+                        <input type="radio" name="jk"> Perempuan
+                    </td>
+                <tr>
+                    <td>Nama Orangtua/Wali:</td>
+                    <td><input type="text" name="nama_ortu" required></td>
+                </tr>
+                <tr>
+                    <td>Alamat:</td>
+                    <td><textarea name="alamat" id="alamat"></textarea></td>
+                </tr>
+                    <td>Kota/Kabupaten:</td>
+                    <td><input type="text" name="kota/kab" required></td>
+                </tr>
+                </tr>
+                    <td>Asal Sekolah:</td>
+                    <td><input type="text" name="asal_sekolah" required></td>
+                </tr>
+                <tr>
+                    <td>Agama:</td>
+                    <td>
+                        <select id="agama" name="agama">
+                            <option value=""selected disabled hidden></option>
+                            <option value="islam">Islam</option>
+                            <option value="kristen">Kristen</option>
+                            <option value="katholik">Katholik</option>
+                            <option value="hindu">Hindu</option>
+                            <option value="buddha">Buddha</option>
+                            <option value="konghucu">Konghucu</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>PENILAIAN</legend>
+            <table>
+                <td>NILAI UJIAN NASIONAL (NUN)</td>
+                <tr>
+                    <td>1. Matematika:</td>
+                    <td><input type="number" name="mtk" style="width: 80px;" min="0" max="100" required></td>
+                </tr>
+                 <tr>
+                    <td>2. Bahasa Indonesia:</td>
+                    <td><input type="number" name="bindo" style="width: 80px;" min="0" max="100" required></td>
+                <tr>
+                    <td>3. Bahasa Inggris:</td>
+                    <td><input type="number" name="bing" style="width: 80px;" min="0" max="100" required></td>
+                </tr>
+                <tr>
+                    <td>4. Ilmu Pengetahuan Alam (IPA):</td>
+                    <td><input type="number" name="ipa" style="width: 80px;" min="0" max="100" required></td>
+                    <td>Jumlah NUN</td> 
+                        <td><input type="number" name="jumlahNun" style="width: 80px;"></td>
+                </tr>
+                <tr>
+                    <td>NILAI BONUS PRESTASI (NBP)</td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="number" name="nbp" style="width: 80px;" required></td>
+                </tr>
+                <tr>
+                    <td>JUMLAH TOTAL NILAI AKHIR PPDB</td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="number" name="mtk" style="width: 80px;" required></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>PILIHAN SEKOLAH</legend>
+            <table>
+                <tr>
+                    <td>1. SMK:</td>
+                    <td><input type="text" name="SMK" required></td>
+                </tr>
+                <tr>
+                        <td>a. Pilihan 1:</td>
+                    <td>
+                        <select id="pilihan1" name="pilihan1">
+                            <option value=""selected disabled hidden></option>
+                            <option value="RPL">RPL</option>
+                            <option value="TKR">TKR</option>
+                            <option value="TEI">TEI</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2. SMK:</td>
+                    <td><input type="text" name="SMK" required></td>
+                </tr>
+                <tr>
+                    <td>a. Pilihan 2:</td>
+                    <td>
+                        <select id="pilihan2" name="pilihan2">
+                            <option value=""selected disabled hidden></option>
+                            <option value="DKV">DKV</option>
+                            <option value="TBSM">TBSM</option>
+                            <option value="TAV">TAV</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </Fieldset>
+        <tr><td colspan="4"><input type="submit" value="Simpan Data"></td></tr>
+        <tr><td colspan="4"><input type="reset" value="Reset Data"></td></tr>
+    </form>   
+</body>
+</html>
