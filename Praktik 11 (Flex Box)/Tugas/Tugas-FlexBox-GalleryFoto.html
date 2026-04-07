@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery Foto</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        background-color: white;
+      }
+      h1 {
+        margin-top: 20px;
+        text-shadow: 0 2px 15px;
+        transition: transform 0.3s;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+      .container img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s;
+        cursor: pointer;
+      }
+      .container img:hover {
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Gallery Foto My Mine</h1>
+    <div class="container">
+      <img src="sulis.jpg" alt="" />
+      <img src="sulis.jpg" alt="" />
+      <img src="sulis.jpg" alt="" />
+      <img src="sulis.jpg" alt="" />
+    </div>
+  </body>
+</html>
+ 
