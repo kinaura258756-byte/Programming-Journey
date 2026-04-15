@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Z Index</title>
+    <style>
+      body {
+          margin: 0;
+          height: 100vh;
+          overflow: hidden;
+        background-color: maroon;
+        background: linear-gradient(135deg, #8b0000, #1a0000);
+      }
+      img {
+          margin: 50px auto;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        cursor: pointer;
+        transition:
+          transform 0.3s ease-in-out,
+          box-shadow 0.3s ease-in-out;
+      }
+      img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 25px rgba(255, 0, 0, 0.8);
+        transform: scale(1.1) rotate(3deg);
+      }
+        .container {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 500px;
+          height: 500px;
+      }
+      .gambar1 {
+        background-color: #4c3d19;
+        z-index: 3;
+      }
+      .gambar2 {
+        background-color: #354024;
+        top: 150px;
+        left: 150px;
+        z-index: 2;
+      }
+      .gambar3 {
+        background-color: #889063;
+        top: 290px;
+        left: 290px;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="SYLUS1.jpg" alt="" class="gambar1" />
+      <img src="SYLUS3.jpg" alt="" class="gambar2" />
+      <img src="SYLUS2.jpg" alt="" class="gambar3" />
+    </div>
+  </body>
+</html>
