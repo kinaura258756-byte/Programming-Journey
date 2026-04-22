@@ -1,0 +1,107 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Matcha Online</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <header>
+        <h1>Gallery Produk Matcha Mpruyy</h1>
+        <p>Temukan koleksi Matcha terbaik dan terenak di Alam Semesta.</p>
+        <p class="subtitle">Lihat detail produk, harga, dan rekomendasi pilihan paling laris.</p>
+    </header>
+    <nav>
+        <ul>
+        <li> <a href="home.html">Home</a></li>
+            <li><a href="index.html">Menu</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="gallery.html">Gallery</a></li>
+        
+        </ul>
+    </nav>
+
+    <section class="container">
+        <h2>Matcha Ter-GONG </h2>
+        <div class="product-list">
+
+            <div class="card">
+                <img src="Matcha Latte.jpg" alt="">
+                <h3>Matcha Latte</h3>
+                <p>Rp. 22.000</p>
+                <button onclick="confirmOrder('Matcha Latte')">Buy</button>
+            </div>
+
+            <div class="card">
+                <img src="Matcha Pink.jpg" alt="">
+                <h3>Matcha Iguro-san</h3>
+                <p>Rp. 25.000</p>
+                <button onclick="confirmOrder('Matcha Iguro-san')">Buy</button>
+            </div>
+
+            <div class="card">
+                <img src="Matcha Stroberi.jpg" alt="">
+                <h3>Matcha Strawberry</h3>
+                <p>Rp. 27.000</p>
+                <button onclick="confirmOrder('Matcha Strawberry')">Buy</button>
+            </div>
+
+            <div class="card">
+                <img src="Matcha Endyul.jpg" alt="">
+                <h3>Matcha Endyul</h3>
+                <p>Rp. 30.000</p>
+                <button onclick="confirmOrder('Matcha Endyul')">Buy</button>
+            </div>
+        </div>
+    </section>
+
+    <div id="popup-confirm" class="popup">
+  <div class="popup-content">
+    <p>Apakah kamu yakin ingin membeli <span id="product-name"></span>?</p>
+    <button onclick="showSuccess()">Ya</button>
+    <button onclick="closePopup('popup-confirm')">Tidak</button>
+  </div>
+</div>
+
+
+<div id="popup-success" class="popup">
+  <div class="popup-content">
+    <p>Pembayaran berhasil ✅</p>
+    <button onclick="closePopup('popup-success')">Tutup</button>
+  </div>
+</div>
+
+<script>
+  let selectedProduct = "";
+
+  function confirmOrder(product) {
+    selectedProduct = product;
+    document.getElementById('product-name').textContent = product;
+    showPopup('popup-confirm');
+  }
+
+  function showPopup(id) {
+    const popup = document.getElementById(id);
+    popup.classList.add('show');
+  }
+
+  function closePopup(id) {
+    const popup = document.getElementById(id);
+    popup.classList.remove('show');
+  }
+
+  function showSuccess() {
+    closePopup('popup-confirm');
+    setTimeout(() => { // delay agar popup konfirmasi hilang dulu
+      showPopup('popup-success');
+    }, 300);
+  }
+</script>
+
+    <footer>
+        <p>&copy; 2026 Laumea derma Skincare.</p>
+    </footer>
+    </body>
+    </html>
