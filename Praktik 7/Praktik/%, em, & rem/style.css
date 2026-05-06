@@ -1,0 +1,16 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container {
+    width: 50%;
+    background-color: lightblue;
+    padding: 20px;
+}
+.teks-em {
+    font-size: 1em; 
+}
+.teks-rem {
+    font-size: 2rem; 
+}
