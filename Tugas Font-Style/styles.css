@@ -1,0 +1,43 @@
+/* Judul */
+h1 {
+    background-color: silver;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+/* Paragraf Pertama */
+.p1 {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Paragraf Kedua */
+.p2 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Paragraf Ketiga */
+.p3{
+    font-size: 1.3em;
+    font-weight: lighter;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Paragraf Keempat */
+.p4 {
+    font-size: 140%;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* Paragraf Kelima */
+.p5 {
+    font-size: 20px;
+    font-weight: 124;
+    font-style: normal;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
