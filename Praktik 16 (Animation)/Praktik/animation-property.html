@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Animation</title>
+    <style>
+      div {
+        width: 100px;
+        height: 250px;
+        background-color: lightblue;
+        animation-duration: 4s;
+        animation-delay: 2s;
+        animation-direction: reverse;
+      }
+
+      @keyframes myAnimation {
+        0% {
+          background-color: lightcoral;
+          left: 0px;
+          top: 0px;
+        }
+        25% {
+          background-color: lightgray;
+          left: 200px;
+          top: 200px;
+        }
+        50% {
+          background-color: lightgreen;
+          left: 200px;
+          top: 200px;
+        }
+        100% {
+          background-color: lightslategray;
+          left: 0px;
+          top: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Animation-Delay Property</h1>
+    <div>
+      <p>
+        Properti Animation-Direction menentukan apakah animasi harus diputar
+        maju, mundur, atau dalam siklus bergantian.
+        Contoh berikut akan menjalankan animasi dalam arah terbalik (mundur)
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Animation</title>
+    <style>
+      div {
+        width: 100px;
+        height: 250px;
+        background-color: lightblue;
+        position: relative;
+        animation: myAnimation 5s linear 2s infinite alternate;
+      }
+
+      @keyframes myAnimation {
+        0% {
+          background-color: lightcoral;
+          left: 0px;
+          top: 0px;
+        }
+        25% {
+          background-color: lightgray;
+          left: 200px;
+          top: 200px;
+        }
+        50% {
+          background-color: lightgreen;
+          left: 200px;
+          top: 200px;
+        }
+        100% {
+          background-color: lightslategray;
+          left: 0px;
+          top: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Shorthand Animation Property
+    <div>
+      <p>
+        Contoh CSS Shorthand Property
+      </p>
+    </div>
+  </body>
+</html>
