@@ -1,0 +1,573 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top left, #1e293b, #0f172a 40%),
+    linear-gradient(to bottom, #020617, #111827);
+
+  color: white;
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+/* LIGHT MODE */
+.light-mode {
+  color: #0f172a;
+}
+
+.light-mode .card,
+.light-mode .stat,
+.light-mode .time-item,
+.light-mode label,
+.light-mode .detail-box,
+.light-mode .suggestion-item {
+  background: white;
+  color: #0f172a;
+}
+
+.light-mode #locationInput {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+.light-mode .day {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.15;
+  z-index: -1;
+}
+
+body::before {
+  background: #22c55e;
+  top: -100px;
+  left: -100px;
+}
+
+body::after {
+  background: #3b82f6;
+  bottom: -120px;
+  right: -120px;
+}
+
+/* THEME BUTTON */
+#themeToggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  width: 45px;
+  height: 45px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #22c55e;
+  color: white;
+
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 18px;
+
+  transition: 0.3s;
+}
+
+#themeToggle:hover {
+  transform: scale(1.1);
+}
+
+/* LANDING */
+.landing {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.landing h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  color: white;
+  transition: 0.3s;
+}
+.light-mode .landing h1 {
+  color: black;
+  transition: 0.3s;
+}
+
+.landing p {
+  opacity: 0.7;
+  color: white;
+}
+.light-mode .landing p {
+  color: black;
+  transition: 0.3s;
+}
+
+.start-btn {
+  margin-top: 20px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 16px;
+  background: #22c55e;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.light-mode .start-btn {
+  color: black;
+}
+
+.start-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(42, 238, 114, 0.5);
+}
+
+/* APP */
+.app {
+  display: none;
+  max-width: 520px;
+  margin: auto;
+  padding: 20px;
+  animation: fadeIn 0.8s ease;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  margin-bottom: 5px;
+}
+
+.header p {
+  opacity: 0.7;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.stat {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  border-radius: 18px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+.stat:hover {
+  transform: translateY(-4px);
+}
+
+.stat div {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* CARD */
+.card {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 16px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* LOCATION */
+#locationInput {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  margin-top: 10px;
+  outline: none;
+  transition: 0.3s;
+}
+
+#locationInput:focus {
+  box-shadow: 0 0 0 2px #22c55e;
+}
+
+.suggestions {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.suggestion-item {
+  padding: 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.suggestion-item:hover {
+  background: rgba(34, 197, 94, 0.15);
+  transform: translateX(4px);
+}
+
+/* PRAYER TIMES */
+.time-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  margin-top: 10px;
+  transition: 0.25s;
+}
+
+.time-item:hover {
+  transform: scale(1.02);
+}
+
+/* COUNTDOWN */
+.next-prayer-card {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 18px;
+  text-align: center;
+
+  background: linear-gradient(
+    135deg,
+    rgba(34, 197, 94, 0.18),
+    rgba(59, 130, 246, 0.15)
+  );
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  animation: pulseGlow 3s infinite;
+}
+
+#nextPrayerName {
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+#countdown {
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+/* PROGRESS */
+.progress-bar {
+  height: 10px;
+  background: #1e293b;
+  border-radius: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 10px;
+  width: 0%;
+  border-radius: 10px;
+
+  background: linear-gradient(90deg, #22c55e, #4ade80);
+
+  transition: 0.3s;
+}
+
+.success {
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+  color: #4ade80;
+  font-weight: bold;
+}
+
+/* CHECKBOX */
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  margin-top: 10px;
+  transition: 0.25s;
+}
+
+label:hover {
+  transform: translateX(4px);
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #22c55e;
+  cursor: pointer;
+}
+
+/* CALENDAR */
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.calendar-header button {
+  border: none;
+  background: #22c55e;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.calendar-header button:hover {
+  transform: scale(1.05);
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.day {
+  padding: 12px 0;
+  border-radius: 10px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 12px;
+}
+
+.day:hover {
+  transform: scale(1.05);
+}
+
+.full {
+  background: #22c55e;
+}
+
+.partial {
+  background: #eab308;
+}
+
+.today {
+  border: 2px solid #22c55e;
+}
+
+.detail-box {
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  line-height: 1.8;
+}
+
+/* CHART */
+canvas {
+  margin-top: 15px;
+}
+
+/* ANIMATION */
+/* FADE IN */
+
+@keyframes smoothFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* FADE OUT */
+
+@keyframes smoothFadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+/* CLASS */
+
+.fade-in {
+  animation: smoothFadeIn 0.6s ease forwards;
+}
+
+.fade-out {
+  animation: smoothFadeOut 0.6s ease forwards;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .landing h1 {
+    font-size: 34px;
+  }
+
+  .stats {
+    flex-direction: column;
+  }
+
+  #countdown {
+    font-size: 28px;
+  }
+
+  .calendar {
+    gap: 4px;
+  }
+
+  .day {
+    font-size: 11px;
+    padding: 10px 0;
+  }
+}
+
+/* =========================
+      DYNAMIC BACKGROUND
+========================= */
+
+body {
+  transition:
+    background 1s ease,
+    color 0.5s ease;
+}
+
+/* 🌅 SUBUH */
+.subuh-bg {
+  background:
+    radial-gradient(circle at top left, #7890d3ab, #2530509d 40%),
+    linear-gradient(to bottom, #172554, #020617);
+}
+
+/* ☀️ DZUHUR */
+.dzuhur-bg {
+  background:
+    radial-gradient(circle at top left, #38bdf8, #2563eb 40%),
+    linear-gradient(to bottom, #1d4ed8, #0f172a);
+}
+
+/* 🌤 ASHAR */
+.ashar-bg {
+  background:
+    radial-gradient(circle at top left, #fbbf24, #f97316 40%),
+    linear-gradient(to bottom, #7c2d12, #1e293b);
+}
+
+/* 🌇 MAGHRIB */
+.maghrib-bg {
+  background:
+    radial-gradient(circle at top left, #f34d66, #b95621 40%),
+    linear-gradient(to bottom, #7f1d1d, #1e1b4b);
+}
+
+/* 🌙 ISYA */
+.isya-bg {
+  background:
+    radial-gradient(circle at top left, #4338ca, #0f172a 40%),
+    linear-gradient(to bottom, #020617, #000000);
+}
+
+/* BACK BUTTON */
+
+.back-btn {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+.back-btn:hover {
+  transform: translateX(-4px);
+  background: #2be970;
+}
+/* LIGHT MODE */
+.light-mode .back-btn {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+/* MONTH & YEAR SELECT */
+
+#monthSelect,
+#yearSelect {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+  appearance: none;
+}
+
+/* OPTION */
+
+#monthSelect option,
+#yearSelect option {
+  background: #0f172a;
+  color: white;
+}
+
+/* LIGHT MODE */
+
+.light-mode #monthSelect,
+.light-mode #yearSelect {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.light-mode #monthSelect option,
+.light-mode #yearSelect option {
+  background: white;
+  color: #0f172a;
+}

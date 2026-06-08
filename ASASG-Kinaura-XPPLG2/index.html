@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sholat Tracker</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <button id="themeToggle">🌙</button>
+
+    <!-- LANDING -->
+    <div class="landing" id="landing">
+      <h1>📿 Sholat Tracker</h1>
+      <p>Bangun istiqomah sholat 5 waktu ✨</p>
+      <button class="start-btn" onclick="startApp()">Mulai</button>
+    </div>
+
+    <!-- APP -->
+    <div class="app" id="app">
+      <div class="header">
+        <button class="back-btn" onclick="backToLanding()">
+          ⬅ Kembali
+        </button>
+        <h2>Dashboard</h2>
+        <p id="todayText"></p>
+      </div>
+
+      <!-- STATS -->
+      <div class="stats">
+        <div class="stat">
+          <div id="streak">0</div>
+          <small>Streak</small>
+        </div>
+
+        <div class="stat">
+          <div id="total">0</div>
+          <small>Hari</small>
+        </div>
+
+        <div class="stat">
+          <div id="consistency">0%</div>
+          <small>Konsisten</small>
+        </div>
+      </div>
+
+      <!-- LOCATION -->
+      <div class="card">
+        <h3>📍 Pilih Lokasi</h3>
+
+        <input
+          type="text"
+          id="locationInput"
+          placeholder="Cari kota..."
+          autocomplete="off"
+        />
+
+        <div id="suggestions" class="suggestions"></div>
+      </div>
+
+      <!-- PRAYER -->
+      <div class="card">
+        <h3>🕌 Jadwal Sholat</h3>
+
+        <div class="time-item">
+          <span>Subuh</span>
+          <span id="subuh">--:--</span>
+        </div>
+
+        <div class="time-item">
+          <span>Dzuhur</span>
+          <span id="dzuhur">--:--</span>
+        </div>
+
+        <div class="time-item">
+          <span>Ashar</span>
+          <span id="ashar">--:--</span>
+        </div>
+
+        <div class="time-item">
+          <span>Maghrib</span>
+          <span id="maghrib">--:--</span>
+        </div>
+
+        <div class="time-item">
+          <span>Isya</span>
+          <span id="isya">--:--</span>
+        </div>
+
+        <!-- COUNTDOWN -->
+        <div class="next-prayer-card">
+          <div id="nextPrayerName">Menuju Shalat</div>
+
+          <div id="countdown">00:00:00</div>
+        </div>
+      </div>
+
+      <!-- PROGRESS -->
+      <div class="card">
+        <div id="progressText">0/5 selesai</div>
+
+        <div class="progress-bar">
+          <div id="progressFill" class="progress-fill"></div>
+        </div>
+
+        <div class="success" id="successText">MasyaAllah Tabarakallah ✨</div>
+      </div>
+
+      <!-- CHECKLIST -->
+      <div class="card">
+        <label>
+          <span>Subuh</span>
+          <input type="checkbox" class="shalat" />
+        </label>
+
+        <label>
+          <span>Dzuhur</span>
+          <input type="checkbox" class="shalat" />
+        </label>
+
+        <label>
+          <span>Ashar</span>
+          <input type="checkbox" class="shalat" />
+        </label>
+
+        <label>
+          <span>Maghrib</span>
+          <input type="checkbox" class="shalat" />
+        </label>
+
+        <label>
+          <span>Isya</span>
+          <input type="checkbox" class="shalat" />
+        </label>
+      </div>
+
+      <!-- CHART -->
+      <div class="card">
+        <h3>📊 Statistik Mingguan</h3>
+
+        <canvas id="ibadahChart"></canvas>
+      </div>
+
+      <!-- CALENDAR -->
+      <div class="card">
+        <div class="calendar-header">
+          <button onclick="changeMonth(-1)">◀</button>
+
+          <select id="monthSelect"></select>
+
+          <select id="yearSelect"></select>
+
+          <button onclick="changeMonth(1)">▶</button>
+        </div>
+
+        <div id="calendar" class="calendar"></div>
+
+        <div id="detailBox" class="detail-box">
+          Klik tanggal untuk melihat detail.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>-->
+
